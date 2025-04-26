@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SilentiumX Crack</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div id="loading-screen">
+      <div class="spinner"></div>
+    </div>
+  
+    <header>
+      <div class="container">
+        <nav>
+          <a href="/" class="logo">SilentiumX Crack</a>
+          <div class="search-container">
+            <input type="text" 
+                   class="search-input"
+                   placeholder="Recherche un jeux...">
+          </div>
+        </nav>
+      </div>
+    </header>
+  
+    <main class="container">
+      <section>
+        <div class="games-grid" id="app-grid"></div>
+      </section>
+    </main>
+  
+    <script src="main.js" defer></script>
+    <script>
+      window.addEventListener('load', () => {
+        const loadingScreen = document.getElementById('loading-screen');
+        loadingScreen.classList.add('fade-out');
+        setTimeout(() => {
+          loadingScreen.style.display = 'none';
+        }, 1000);
+      });
+    </script>
+  </body>
+</html>
